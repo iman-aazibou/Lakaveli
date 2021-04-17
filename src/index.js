@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import Nav from './Components/NavComponent/Nav';
-
 import reportWebVitals from './reportWebVitals';
-
 ReactDOM.render(
   <React.StrictMode>
     <Nav />
