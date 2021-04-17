@@ -1,0 +1,46 @@
+.NavContainer {
+  width: 100%;
+  display: flex;
+}
+
+.NavList {
+  list-style: none;
+  padding: 0.5rem;
+  position: relative;
+  left: -100px;
+}
+
+.NavList a {
+  text-decoration: none;
+  color: black;
+}
+
+.NavList a:hover {
+  color: blue;
+}
+
+.noNavList {
+  display: none;
+}
+
+.List {
+  padding: 10px;
+}
+
+.MenuContainer {
+  position: relative;
+  left: 70%;
+  top: 2rem;
+}
+
+.LogoContainer {
+  position: relative;
+  top: 2.7rem;
+  left: 10%;
+}
+
+/* Hamburguer */
+
+.hamburguer {
+  font-size: 30px;
+}
