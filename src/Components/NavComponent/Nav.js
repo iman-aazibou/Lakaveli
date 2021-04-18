@@ -1,6 +1,7 @@
 import React from 'react';
 import {Component} from 'react';
 import {navItems} from './NavItems.js';
+import {Link} from 'react-router-dom';
 import './Nav.css';
 
 
@@ -26,7 +27,7 @@ class Nav extends Component{
                         {navItems.map((item, index)=> {
                             return (
                             <li className="List">
-                                <a href={item.url}>{item.title}</a>
+                                <Link to={item.url}>{item.title}</ Link>
                             </li>
                             )
                         })
