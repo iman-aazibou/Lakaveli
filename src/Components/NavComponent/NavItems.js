@@ -1,10 +1,10 @@
 export const navItems = [
     { title: "Home",
-    url: "https://www.google.es/",
+    url: "/",
     cName: "title"
     },
     { title: "Products",
-    url: "#",
+    url: "/products",
     cName: "title"
     },
     { title: "About",
